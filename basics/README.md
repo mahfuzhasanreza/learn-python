@@ -256,6 +256,7 @@ count = 0
 while count < 5:
     print(f"Count is {count}")
     count += 1
+```
 
 ## Input and Output
 
@@ -289,3 +290,64 @@ Example:
 ```python
 print("Python", "is", "fun", sep="-")
 ```
+
+## Calculator Example
+
+```python
+print("==== My Calculator ====")
+
+# Taking user input
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+print("Choose operation:")
+print("1. Add (+)")
+print("2. Subtract (-)")
+print("3. Multiply (*)")
+print("4. Divide (/)")
+
+choice = input("Enter your choice (1/2/3/4): ")
+
+# Perform calculation
+if choice == '1':
+    result = num1 + num2
+    print(f"Result: {num1} + {num2} = {result}")
+elif choice == '2':
+    result = num1 - num2
+    print(f"Result: {num1} - {num2} = {result}")
+elif choice == '3':
+    result = num1 * num2
+    print(f"Result: {num1} * {num2} = {result}")
+elif choice == '4':
+    if num2 != 0:
+        result = num1 / num2
+        print(f"Result: {num1} / {num2} = {result}")
+    else:
+        print("Error: Division by zero is not allowed!")
+else:
+    print("Invalid input! Please choose between 1–4.")
+```
+
+## Number Guessing Game Example
+
+```python
+import random
+
+print("=== Number Guessing Game ===")
+
+# Computer picks a random number between 1 and 10
+secret_number = random.randint(1, 10)
+
+# Allow user to guess
+guess = int(input("Guess a number between 1 and 10: "))
+
+# Check guess
+if guess == secret_number:
+    print("Correct! You guessed the number!")
+else:
+    print(f"Wrong guess! The correct number was {secret_number}.")
+```
+
+## Collections
+
+### Lists
