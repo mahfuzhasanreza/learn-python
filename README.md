@@ -46,3 +46,12 @@ python3 filename.py
 ### Official Documentation
 - [Python Official Documentation](https://docs.python.org/3/)
 - [Python Tutorial](https://docs.python.org/3/tutorial/)
+
+<br>
+
+
+### _Get Connected with [Learn With Mahfuz](https://www.youtube.com/@learn-with-mahfuz)_
+  - _Subscribe to my channel on [YouTube](https://www.youtube.com/@learn-with-mahfuz)_
+  - _Follow me on [LinkedIn](https://www.linkedin.com/company/learn-with-mahfuz)_
+  - _Follow me on [Facebook](https://www.facebook.com/learnwithmahfuzofficial)_
+  - _Connect with me on [LinkedIn](https://www.linkedin.com/in/mahfuzhasanreza/)_

@@ -472,4 +472,12 @@ print(frozen_names.difference(another_set))  # Difference
 print(frozen_names.symmetric_difference(another_set))  # Symmetric Difference
 ```
 
-# Author: Mahfuz Hasan Reza
+
+<br>
+
+
+### _Get Connected with [Learn With Mahfuz](https://www.youtube.com/@learn-with-mahfuz)_
+  - _Subscribe to my channel on [YouTube](https://www.youtube.com/@learn-with-mahfuz)_
+  - _Follow me on [LinkedIn](https://www.linkedin.com/company/learn-with-mahfuz)_
+  - _Follow me on [Facebook](https://www.facebook.com/learnwithmahfuzofficial)_
+  - _Connect with me on [LinkedIn](https://www.linkedin.com/in/mahfuzhasanreza/)_
