@@ -257,3 +257,35 @@ while count < 5:
     print(f"Count is {count}")
     count += 1
 
+## Input and Output
+
+### Input
+
+Syntax:
+```python
+input("Prompt message")
+```
+
+Example:
+```python
+name = input("Enter your name: ")
+print(f"Hello, {name}!")
+```
+
+Example: (**With data type conversion:**)
+```python
+age = int(input("Enter your age: "))
+print(f"You are {age} years old.")
+```
+
+### Output
+
+Syntax:
+```python
+print(value1, value2, ..., sep=' ', end='\n')
+```
+
+Example:
+```python
+print("Python", "is", "fun", sep="-")
+```
