@@ -32,3 +32,45 @@ print(type(age))       # <class 'int'>
 print(type(height))    # <class 'float'>
 print(type(is_student))# <class 'bool'>
 ```
+
+## Operators
+
+### Arithmetic Operators
+
+Syntax:
+```python
+# Arithmetic Operators
++  # Addition
+-  # Subtraction
+*  # Multiplication
+/  # Division
+%  # Modulus
+** # Exponentiation
+// # Floor Division
+```
+
+Example:
+```python
+x = 10
+y = 3
+
+print(f"Addition: {x + y}")
+print(f"Subtraction: {x - y}")
+print(f"Multiplication: {x * y}")
+print(f"Division: {x / y}")
+print(f"Modulus: {x % y}")
+print(f"Exponentiation: {x ** y}")
+print(f"Floor Division: {x // y}")  
+```
+Output:
+```
+Addition: 13
+Subtraction: 7
+Multiplication: 30
+Division: 3.3333333333333335
+Modulus: 1
+Exponentiation: 1000
+Floor Division: 3
+```
+
+### Comparison Operators
