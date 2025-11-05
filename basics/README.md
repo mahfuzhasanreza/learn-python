@@ -199,3 +199,61 @@ print(f"~a: {~a}")         # 1010 => -6
 print(f"a << 1: {a << 1}") # 1010 => 10
 print(f"a >> 1: {a >> 1}") # 0010 => 2
 ```
+
+## Conditional Statements
+
+Syntax:
+```python
+if condition:
+    # code to execute if condition is true
+elif another_condition:
+    # code to execute if another_condition is true
+else:
+    # code to execute if all conditions are false
+```
+
+Example:
+```python
+mark = 85
+
+if mark >= 90:
+    print("Grade: A")
+elif mark >= 80:
+    print("Grade: B")
+elif mark >= 70:
+    print("Grade: C")
+else:
+    print("Grade: F")
+```
+
+## Loops
+
+### For Loop
+
+Syntax:
+```python
+for item in iterable:
+    # code to execute for each item
+```
+
+Example:
+```python
+for i in range(5):
+    print(f"Iteration {i}")
+```
+
+### While Loop
+
+Syntax:
+```python
+while condition:
+    # code to execute while condition is true
+```
+
+Example:
+```python
+count = 0
+while count < 5:
+    print(f"Count is {count}")
+    count += 1
+
