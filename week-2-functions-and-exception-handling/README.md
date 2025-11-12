@@ -5,12 +5,10 @@
 Syntax:
 ```python
 def function_name(parameters):
-    """Docstring explaining the function."""
     # Function body
     return value
 
 def function_name(parameters) -> return_type:
-    """Docstring explaining the function."""
     # Function body
     return value
 ```
@@ -34,6 +32,37 @@ if __name__ == "__main__":
     print(greet("Mahfuz"))
     print("3 + 4 =", add(3, 4))
     print("5! =", factorial(5))
+```
+
+## Function Arguments, default Values, *args, and **kwargs
+
+Syntax:
+```python
+def function_name(param1: type1, param2: type2 = default_value) -> return_type:
+    # Function body
+    return value
+```
+
+Example:
+```python
+def robot_greet(name: str, greeting: str = "Hello") -> str:
+    return f"{greeting}, {name}!"
+
+print(robot_greet("Mahfuz"))            # Uses default greeting
+print(robot_greet("Hasan", "Hi there"))  # Custom greeting
+
+# *args and **kwargs
+def func_with_args(*args, **kwargs):
+    print("Positional arguments:", args)
+    print("Keyword arguments:", kwargs)
+
+    args_sum = sum(args)
+    print("Sum of positional arguments:", args_sum)
+    
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+func_with_args(1, 2, 3, name="Mahfuz", age=25)
 ```
 
 
