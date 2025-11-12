@@ -101,6 +101,43 @@ print_global_var()
 print("Outside function:", var)
 ```
 
+## Create and Use Modules
+
+Example:
+```python
+from functions import greet
+
+print(greet("Mahfuz"))
+```
+
+## Exception Handling
+
+Syntax:
+```python
+try:
+    # Code that may raise an exception
+except SomeException as e:
+    # Handle exception
+finally:
+    # Code that runs no matter what
+```
+
+Example:
+```python
+def divide(a: float, b: float) -> float:
+    try:
+        result = a / b
+    except ZeroDivisionError as e:
+        print("Error: Cannot divide by zero.")
+        return None
+    else:
+        return result
+    finally:
+        print("Execution completed.")
+print(divide(10, 2))  # Outputs: 5.0
+print(divide(10, 0))  # Outputs: Error message and None
+```
+
 <br>
 
 ### _Get Connected with [Learn With Mahfuz](https://www.youtube.com/@learn-with-mahfuz)_
