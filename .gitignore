@@ -3,3 +3,7 @@ __pycache__/
 outputs/
 data/large_file.csv
 .ipynb_checkpoints/
+
+# SQLite database files
+*.db
+*.sqlite3
